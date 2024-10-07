@@ -6,13 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist"
     "preview": "vite preview"
   },
   "dependencies": {
-    "gem": "^2.4.3",
     "sass": "^1.79.4",
-    "travis": "^0.1.1",
     "vue": "^3.4.31",
     "vue-router": "^4.4.5"
   },
