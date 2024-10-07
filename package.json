@@ -1,0 +1,27 @@
+{
+  "name": "piklema-to-do",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gem": "^2.4.3",
+    "sass": "^1.79.4",
+    "travis": "^0.1.1",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.1.1",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.3.4"
+  }
+}
